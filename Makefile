@@ -20,4 +20,4 @@ clean:
 
 %.odt: %.tex
 	latexmk $<
-	htlatex $< "xhtml,ooffice,bib-,NoFonts,graphics-300,hidden-ref" "ooffice/! -cmozhtf" "-coo -cvalidate"
+	mk4ht oolatex $< "xhtml,ooffice,bib-"
