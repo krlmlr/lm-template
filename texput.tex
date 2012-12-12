@@ -1,7 +1,10 @@
     \documentclass{scrartcl}
     \pagestyle{empty}
-    %\bibliographystyle{plain}
-
+    \usepackage{booktabs}
+    %
     \begin{document}
-      %\bibliography{texput}
+      \begin{tabular}{ll}
+      \InputIfFileExists{texput4_inp.tex}
+      \end{tabular}
     \end{document}
+
