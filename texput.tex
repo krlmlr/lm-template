@@ -1,7 +1,14 @@
-    \documentclass{scrartcl}
+    \documentclass[12pt]{article}
     \pagestyle{empty}
-    %\bibliographystyle{plain}
-
+    \usepackage{fontspec}
     \begin{document}
-      %\bibliography{texput}
+        \fontspec{Linux Libertine O}
+        {\addfontfeatures{Numbers={Lining,Monospaced}}     0123456789}
+
+        {\addfontfeatures{Numbers={Lining,Proportional}}   0123456789}
+
+        {\addfontfeatures{Numbers={OldStyle,Monospaced}}   0123745689}
+
+        {\addfontfeatures{Numbers={OldStyle,Proportional}} 0123745689}
     \end{document}
+
