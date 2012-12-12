@@ -4,6 +4,7 @@ all: texput.png
 
 clean:
 	latexmk -C
+	git clean -n -x
 
 %.pdf: %.tex
 	latexmk -pdf $<
@@ -18,5 +19,5 @@ clean:
 	R --no-save <<<"library(knitr); knit('$<', output='$@')" || true
 
 %.odt: %.tex
-	latex $<
+	latexmk $<
 	htlatex $< "xhtml,ooffice,bib-,NoFonts,graphics-300,hidden-ref" "ooffice/! -cmozhtf" "-coo -cvalidate"
