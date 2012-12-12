@@ -1,0 +1,44 @@
+By now I have completed two papers using knitr. The tool is amazing, but when doing the final writeup (and thus working *mostly*, but not entirely, inside LaTeX), it slows me down a lot, and I am looking for ways to speed this particular stage.
+
+The caching feature helps, but not always. Minor changes to a chunk on which many other chunks depend requires the whole analysis to run again, and this sometimes takes hours. (No kidding.) I am looking for a way to separate the compilation of the LaTeX document (which can be usually done in seconds) from the actual analysis.
+
+My first idea was to create an .Rnw file that would define, for every chunk, one LaTeX macro that contains its result:
+
+```
+<<testchunk,as.cmd=TRUE>>=
+a <- 1
+@
+```
+
+would become
+
+```
+\newcommand{\testchunk}{%
+... a <- 1 ...
+}
+```
+
+I have tried to achieve this with hooks, but no luck so far. Neither chunk nor output hooks will let me put the required `\newcommand` outside the surrounding `knitrout` environment.
+
+But then I thought that perhaps this could be made a general feature of knitr. The .tex files would be generated immediately, referring to commands defined in an auxiliary .tex file that first contains dummy values and is then gradually enhanced as results become available. This could be made an option, with the current behavior as default.
+
+The input file would generate the following two files:
+
+test.tex:
+```
+\input{test.knt}
+\testchunk{}
+```
+
+test.knt (initial contents):
+
+```
+\newcommand{\testchunk}{Please wait for compilation of chunk ``testchunk''!}
+```
+
+test.knt (after testchunk has been evaluated):
+
+```
+\newcommand{\testchunk}{... a <- 1 ...}
+```
+

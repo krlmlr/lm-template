@@ -1,0 +1,31 @@
+    \documentclass{scrartcl}
+    \pagestyle{empty}
+    
+    \usepackage{amsmath}
+    \usepackage{namespc}
+    \usepackage{cleveref}
+    %
+    \newcommand{\overwritecommand}[1]{\let#1\undefined\newcommand{#1}}
+    %
+    \begin{document}
+      \section{First section}
+      \label{sec:first}
+      
+      \namespace{shortcuts}{%
+        \overwritecommand{\Cref}{mycref}
+      }{}
+      
+      This is the original definition: \Cref{sec:first}
+      
+      \begin{shortcuts}
+        This is used from within the ``shortcuts'' environment: \Cref
+      \end{shortcuts}
+      
+      \begin{align*}
+        \usingnamespace{shortcuts}
+        \text{Equation} = \text{\Cref}
+      \end{align*}
+      
+      This is to access the macro explicitly: \::shortcuts::Cref::
+    \end{document}
+

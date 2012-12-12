@@ -1,0 +1,8 @@
+\documentclass{article}
+\begin{document}
+a
+<<q,echo=FALSE,results=hide>>=
+getwd()
+@
+b
+\end{document}

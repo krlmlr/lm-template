@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{verbatim}
+\newenvironment{myverbatim}%
+{\verbatim}%
+{\endverbatim}
+
+\begin{document}
+<<setup, include=FALSE>>=
+options(width = 60)
+color_block = function(color) {
+  function(x, options)
+    sprintf('\\begin{myverbatim}\n%s\\end{myverbatim}\n',
+            x)
+}
+knit_hooks$set(warning = color_block('magenta'),
+               error = color_block('red'))
+@
+
+The quick brown fox jumps over the lazy dog the quick brown fox jumps over the
+lazy dog the quick brown fox jumps over the lazy dog.
+
+<<test>>=
+1+1
+rnorm(30)
+1:3+1:2
+1+'a'
+@
+
+\end{document}

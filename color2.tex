@@ -1,0 +1,21 @@
+    \documentclass{article}
+    \usepackage{color}
+    \pagestyle{empty}
+    \begin{document}
+
+    The spacing between this
+    \begin{flushleft}
+    and the following paragraph is good.
+    \end{flushleft}%
+    \color{red}%
+    \begin{flushleft} But here comes trouble. Why is the red block two parskips away?
+    \end{flushleft}
+    \color{blue}%
+    Changing from flushleft to regular doesn't add space even when color is changed.
+    \begin{flushleft} 
+    \color{green}%
+    Neither does changing color inside flushleft.
+    \end{flushleft}
+
+    \end{document}
+

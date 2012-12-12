@@ -1,0 +1,24 @@
+\documentclass{article}
+\begin{document}
+
+<<init,echo=FALSE,results='hide'>>=
+dep_prev()
+
+wrap_cmd_hook <- function(before, options, envir) {
+  if (before) {
+    '\\newcommand{}{'
+  } else {
+    '}'
+  }
+}
+
+knit_hooks$set(as.cmd = wrap_cmd_hook)
+knit_hooks$set(test = function(before, options, envir) 'test1')
+knit_hooks$set(test = function(before, options, envir) 'test2')
+@
+
+<<test,cache=TRUE,echo=FALSE,results='asis',as.cmd=TRUE,test=TRUE>>=
+x <- 1
+@
+
+\end{document}

@@ -1,0 +1,43 @@
+    \documentclass{scrartcl}
+    \pagestyle{empty}
+    \usepackage{caption}
+    \usepackage{xparse}
+    \usepackage{etoolbox}
+    
+    \newcommand{\delayedfigures}{}
+    
+    % Comment the following line to get working code
+    \newcommand{\dofigure}[1]{\gappto{\delayedfigures}{\clearpage#1}}
+    
+    % The example works with the default implementation of \dofigure
+    \providecommand{\dofigure}[1]{#1}
+    
+    %%   \begin{richfigure}
+    %%     [<placement>, e.g. htp (h=here, t=top, p=page)]
+    %%     {<short caption>}
+    %%     {<long caption>}
+    %%     {<\label{label}>}
+    %%       <\includegraphics[...]{figure}>
+    %%   \end{richfigure}
+    \NewDocumentEnvironment{richfigure}{O{tbp} m m m}{%
+      \dofigure\bgroup%{%
+        \begin{figure}[#1]%
+          \caption[#2]{#3}#4%
+            }{% Here, the contents of the environment are placed
+        \end{figure}%
+      \egroup%{
+    }
+
+    \gpreto{\enddocument}{\delayedfigures}
+
+    % Usage example
+    \begin{document}
+      Main document contents.
+      
+      \begin{richfigure}{Short caption}{Long caption}{\label{fig:1}}
+        Figure contents.
+      \end{richfigure}
+      
+      All figures are to appear on separate pages, one per page.
+    \end{document}
+    

@@ -1,0 +1,32 @@
+\documentclass{scrartcl}
+\pagestyle{empty}
+\usepackage{caption}
+\usepackage{lipsum}
+\makeatletter
+\def \@largefloatcheck{\ht\@currbox 0.5\textheight}
+\makeatother
+
+\begin{document}
+\section{baz}
+  Main document contents.
+\lipsum
+\begin{figure}[p]
+ \centerline{ Figure contents. }
+\caption[Short caption]{Long caption of fig 1}\label{fig:1}
+\end{figure}
+
+\lipsum
+
+All figures are to appear on separate pages, one per page.
+\lipsum
+
+\section{foo}
+\lipsum
+\begin{figure}[p]
+ \centerline{ Figure contents. }
+\caption[Short caption]{Long caption  of fig 2}\label{fig:2}
+\end{figure}
+
+\lipsum
+
+\end{document}
