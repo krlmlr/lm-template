@@ -21,3 +21,4 @@ clean:
 %.odt: %.tex
 	latexmk -pdf $<
 	mk4ht oolatex $< "my,ooffice,bib-"
+	mk4ht oolatex $< "my,ooffice,bib-"
