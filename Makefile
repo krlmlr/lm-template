@@ -20,4 +20,4 @@ clean:
 
 %.odt: %.tex
 	latexmk $<
-	mk4ht oolatex $< "xhtml,ooffice,bib-"
+	mk4ht oolatex $< "xhtml,ooffice,bib-,hidden-ref"
