@@ -19,5 +19,5 @@ clean:
 	R --no-save <<<"library(knitr); knit('$<', output='$@')" || true
 
 %.odt: %.tex
-	latexmk $<
-	mk4ht oolatex $< "xhtml,ooffice,bib-"
+	latexmk -pdf $<
+	mk4ht oolatex $< "my,ooffice,bib-"
