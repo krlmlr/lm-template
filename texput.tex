@@ -1,7 +1,14 @@
     \documentclass{scrartcl}
     \pagestyle{empty}
-    %\bibliographystyle{plain}
+
+    \usepackage{verbatimcopy}
+    \usepackage{graphicx}
 
     \begin{document}
-      %\bibliography{texput}
+      \VerbatimCopy{input.tex}{input.tmp}
+      \input{input.tmp}
+
+      % This doesn't work for binary files:
+      %\VerbatimCopy{img.png}{img2.png}
+      %\includegraphics{img2.png}
     \end{document}
