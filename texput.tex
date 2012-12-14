@@ -3,6 +3,8 @@
     \usepackage{graphicx}
     %\bibliographystyle{plain}
 
+    \providecommand{\AsPicture}[1]{#1}
+
     \begin{document}
       \includegraphics{pic/img}
 
@@ -11,4 +13,11 @@
       \includegraphics{pic/img3}
 
       \includegraphics{pic/img4}
+
+      \AsPicture{
+        \begin{tabular}{cc}
+          a & b \\
+          c & d \\
+        \end{tabular}
+      }
     \end{document}
