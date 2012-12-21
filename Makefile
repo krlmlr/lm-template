@@ -1,23 +1,16 @@
 SHELL=/bin/bash
 
-all: texput.png
+LATEXMK=./latexmk.pl
+TMPDIR_BASE=tmp/
+
+all: texput.pdf
 
 clean:
 	latexmk -C
 	git clean -f -x
 
 %.pdf: %.tex
-	latexmk -pdf $<
-
-%-crop.pdf: %.pdf
-	pdfcrop $<
-
-%.png: %-crop.pdf
-	convert -density 150 $< $@
-
-%.tex: %.Rnw
-	R --no-save <<<"library(knitr); knit('$<', output='$@')" || true
-
-%.odt: %.tex
-	latexmk $<
-	mk4ht oolatex $< "xhtml,ooffice,bib-"
+	mkdir -p $(TMPDIR_BASE)$(subst .pdf,,$@)
+	$(LATEXMK) -pdf -recorder -output-directory=$(TMPDIR_BASE)$(subst .pdf,,$@) -r .latexmkrc || true
+	[ $@ -ef $(TMPDIR_BASE)$(subst .pdf,,$@)/$@ ] || cp -u -v $(TMPDIR_BASE)$(subst .pdf,,$@)/$@ .
+	[ $*.synctex.gz -ef $(TMPDIR_BASE)$(subst .pdf,,$@)/$*.synctex.gz ] || cp -u -v $(TMPDIR_BASE)$(subst .pdf,,$@)/$*.synctex.gz .
