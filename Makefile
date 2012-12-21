@@ -7,7 +7,6 @@ all: texput.pdf
 
 clean:
 	latexmk -C
-	git clean -f -x
 
 %.pdf: %.tex
 	mkdir -p $(TMPDIR_BASE)$(subst .pdf,,$@)
