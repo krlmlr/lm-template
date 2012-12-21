@@ -17,6 +17,7 @@
 *.ong
 *.pdf
 *.png
+*.synctex.gz
 *.tmp
 *.ttt
 *.xref
