@@ -4,7 +4,7 @@ all: texput.png
 
 clean:
 	latexmk -C
-	git clean -f -x
+	git clean -f -X
 
 %.pdf: %.tex
 	latexmk -pdf $<
