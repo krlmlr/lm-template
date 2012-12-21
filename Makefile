@@ -8,7 +8,7 @@ all: texput.pdf
 clean:
 	latexmk -C
 
-%.pdf: %.tex
+%.pdf: %.tex FORCE
 	mkdir -p $(TMPDIR_BASE)$(subst .pdf,,$@)
 	$(LATEXMK) -pdf -recorder -output-directory=$(TMPDIR_BASE)$(subst .pdf,,$@) -r .latexmkrc || true
 	[ $@ -ef $(TMPDIR_BASE)$(subst .pdf,,$@)/$@ ] || cp -u -v $(TMPDIR_BASE)$(subst .pdf,,$@)/$@ .
