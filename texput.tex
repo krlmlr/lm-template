@@ -1,6 +1,21 @@
     \documentclass{scrartcl}
+    \usepackage{subcaption}
     \pagestyle{empty}
 
     \begin{document}
-      .
+      \begin{figure}[ht]
+        \subcaptionbox{A sub-figure\label{sfig:aa}}{
+          \subcaptionbox{A sub-sub-figure\label{ssfig:aaa}}{\rule{3cm}{2cm}}
+          \subcaptionbox{A sub-sub-figure\label{ssfig:aab}}{\rule{3cm}{2cm}}
+        }
+        \subcaptionbox{Another sub-figure\label{sfig:ab}}{\rule{3cm}{2cm}}
+        \caption{A Figure}
+        \label{fig:a}
+      \end{figure}
+
+      \ref{fig:a}
+      \ref{sfig:aa}
+      \ref{ssfig:aaa}
+      \ref{ssfig:aab}
+      \ref{sfig:ab}
     \end{document}
