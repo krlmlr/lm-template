@@ -1,13 +1,13 @@
 SHELL=/bin/bash
 
-all: texput.png
+all: texput.pdf
 
 clean:
 	latexmk -C
 	git clean -f -X
 
 %.pdf: %.tex
-	latexmk -pdf $<
+	latexmk -pdf -pdflatex='pdflatex -synctex=1' $<
 
 %-crop.pdf: %.pdf
 	pdfcrop $<
