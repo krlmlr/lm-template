@@ -8,6 +8,7 @@
 *.docx
 *.dvi
 *.fdb_latexmk
+*.fls
 *.html
 *.idv
 *.jpg
