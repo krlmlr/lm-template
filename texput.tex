@@ -1,6 +1,15 @@
-    \documentclass{scrartcl}
+    \documentclass{article}
     \pagestyle{empty}
-
+    \usepackage{fixmetodonotes}
+    
+    \defnote{MARGIN}{inline}{\marginpar}
+    
     \begin{document}
-      .
+      Some text... \FIXME{Some Todo stuff} Some more text
+      
+      It can also display \MARGIN{(Check if margin notes can be displayed
+      with the new MARGIN note type)} notes.
+
+      \listofnote
     \end{document}
+    
