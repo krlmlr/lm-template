@@ -1,6 +1,11 @@
-    \documentclass{scrartcl}
+    \documentclass[draft]{article}
     \pagestyle{empty}
+    \usepackage{fixme}
+    \fxsetup{theme=colorsig}
 
     \begin{document}
-      .
+      Regular text
+      \fxerror*{Issued by the fxerror command}
+      continued here.
+      \fxwarning{And another warning}
     \end{document}
