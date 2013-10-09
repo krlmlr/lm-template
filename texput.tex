@@ -1,6 +1,26 @@
-    \documentclass{scrartcl}
-    \pagestyle{empty}
-
+    \documentclass[twocolumn,a5paper]{paper}
+    \usepackage{abstract}
+    
+    \newcommand\thanksdefiner[1]{}
+    \newcommand\firstauthorthanks{\thanksdefiner{my thanks}}
+    \newcommand\extractthanks[1]{%
+        \renewcommand\thanksdefiner[1]{##1}%
+        #1
+    }
+    
+    \title{Title}
+    \author{First Author \\Institution \thanks{\extractthanks\firstauthorthanks}}
+    
     \begin{document}
-      .
+        \twocolumn[
+            \maketitle
+            % need full-width title
+            \begin{onecolabstract}
+                abstract text...
+            \end{onecolabstract}
+        ]
+        \saythanks
+        
+        % works here:
+        \extractthanks\firstauthorthanks
     \end{document}
