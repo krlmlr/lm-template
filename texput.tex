@@ -1,10 +1,9 @@
     \documentclass[twocolumn,a5paper]{paper}
     \usepackage{abstract}
     
-    \newcommand\thanksdefiner[1]{}
+    \newcommand\thanksdefiner[1]{#1}%
     \newcommand\firstauthorthanks{\thanksdefiner{my thanks}}
     \newcommand\extractthanks[1]{%
-        \renewcommand\thanksdefiner[1]{##1}%
         #1
     }
     
