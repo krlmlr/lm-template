@@ -1,6 +1,6 @@
 SHELL=/bin/bash
 
-all: texput.png
+all: texput.pdf texput.png
 
 clean:
 	latexmk -C
