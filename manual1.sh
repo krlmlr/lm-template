@@ -1,8 +1,11 @@
 #!/bin/sh
 
-mkdir -p tmp_manual
-pdflatex -output-directory=tmp_manual texput
-bibtex tmp_manual/texput
-pdflatex -output-directory=tmp_manual texput
-pdflatex -output-directory=tmp_manual texput
+TMP=tmp_manual1
+
+rm -rf $TMP
+mkdir -p $TMP
+pdflatex -output-directory=$TMP texput
+bibtex $TMP/texput
+pdflatex -output-directory=$TMP texput
+pdflatex -output-directory=$TMP texput
 
