@@ -1,6 +1,18 @@
     \documentclass{scrartcl}
     \pagestyle{empty}
+    
+    \newcommand\declquotedtext[2]{\expandafter\def\csname quotedtext@#1 \endcsname{#2}}
+    \newcommand\defquotedtext[2]{\declquotedtext{#1}{#2}#2}
+    \newcommand\usequotedtext[1]{\csname quotedtext@#1 \endcsname}
 
     \begin{document}
-      .
+      \defquotedtext{test}{This is a test text.}
+      
+      \declquotedtext{later}{And this is a text declared for later use.}
+      
+      This is something completely unrelated.
+      
+      \usequotedtext{test}
+      
+      \usequotedtext{later}
     \end{document}
