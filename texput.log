@@ -1,0 +1,781 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.5.14)  30 OCT 2013 02:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**texput.tex
+(./texput.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ piedmontese, polish, portuguese, romanian, romansh, russian, sanskrit, serbian
+, serbianc, slovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, u
+ppersorbian, welsh, loaded.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2012/07/29 v3.11b KOMA-Script document class (article)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 115.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 116.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 117.
+Class scrartcl Info: File `scrsize11pt.clo' used instead of
+(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 126
+7.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (11p
+t)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
+
+Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.60002pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1213.
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count86
+\c@table=\count87
+\bibindent=\dimen102
+) (./texput.aux)
+\openout1 = `texput.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+
+Completed box being shipped out [1]
+\vbox(655.63498+0.0)x435.61176
+.\glue -25.16531
+.\vbox(680.8003+0.0)x418.25555, shifted 17.3562
+..\vbox(17.0+0.0)x418.25555, glue set 17.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x418.25555
+..\glue 20.40001
+..\glue(\lineskip) 0.0
+..\vbox(595.80026+0.0)x418.25555, glue set 479.14905fil
+...\write-{}
+...\glue(\topskip) 3.39584
+...\hbox(7.60416+0.0)x418.25555, glue set 346.7459fil
+....\hbox(0.0+0.0)x10.95003
+....\OT1/cmr/m/n/10.95 H
+....\OT1/cmr/m/n/10.95 e
+....\OT1/cmr/m/n/10.95 l
+....\OT1/cmr/m/n/10.95 l
+....\OT1/cmr/m/n/10.95 o
+....\glue 3.65 plus 1.825 minus 1.21666
+....\OT1/cmr/m/n/10.95 W
+....\kern-0.91252
+....\OT1/cmr/m/n/10.95 o
+....\OT1/cmr/m/n/10.95 r
+....\OT1/cmr/m/n/10.95 l
+....\OT1/cmr/m/n/10.95 d
+....\OT1/cmr/m/n/10.95 !
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty -51
+...\glue 12.0 plus 5.0 minus 6.0
+...\glue 0.0 plus 1.0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.90834
+...\hbox(6.69167+2.43333)x418.25555, glue set 309.03049fil
+....\hbox(0.0+0.0)x0.0
+.....\glue 0.0
+.....\glue 0.0
+.....\glue -5.475
+.....\hbox(0.0+0.0)x0.0
+.....\glue 5.475
+....\penalty 10000
+....\glue 5.74869
+....\penalty 10000
+....\glue 5.74869
+....\penalty 10000
+....\glue 5.74869
+....\penalty 10000
+....\glue 5.74869
+....\OT1/cmtt/m/n/10.95 W
+....\OT1/cmtt/m/n/10.95 h
+....\OT1/cmtt/m/n/10.95 i
+....\OT1/cmtt/m/n/10.95 t
+....\OT1/cmtt/m/n/10.95 e
+....\OT1/cmtt/m/n/10.95 s
+....\OT1/cmtt/m/n/10.95 p
+....\OT1/cmtt/m/n/10.95 a
+....\OT1/cmtt/m/n/10.95 c
+....\OT1/cmtt/m/n/10.95 e
+....\penalty 10000
+....\glue 5.74869
+....\penalty 10000
+....\glue 5.74869
+....\OT1/cmtt/m/n/10.95 a
+....\OT1/cmtt/m/n/10.95 r
+....\OT1/cmtt/m/n/10.95 e
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 4.475
+...\hbox(6.69167+0.0)x418.25555, glue set 349.2713fil
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000
+....\glue 5.74869
+....\penalty 10000
+....\glue 5.74869
+....\penalty 10000
+....\glue 5.74869
+....\penalty 10000
+....\glue 5.74869
+....\OT1/cmtt/m/n/10.95 r
+....\OT1/cmtt/m/n/10.95 e
+....\OT1/cmtt/m/n/10.95 l
+....\OT1/cmtt/m/n/10.95 e
+....\OT1/cmtt/m/n/10.95 v
+....\OT1/cmtt/m/n/10.95 a
+....\OT1/cmtt/m/n/10.95 n
+....\OT1/cmtt/m/n/10.95 t
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 13.6
+...\hbox(0.0+0.0)x418.25555, glue set 418.25555fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 13.6
+...\hbox(0.0+0.0)x418.25555, glue set 418.25555fil
+....\hbox(0.0+0.0)x0.0
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 6.90834
+...\hbox(6.69167+0.0)x418.25555, glue set 355.01999fil
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000
+....\glue 5.74869
+....\penalty 10000
+....\glue 5.74869
+....\penalty 10000
+....\glue 5.74869
+....\penalty 10000
+....\glue 5.74869
+....\OT1/cmtt/m/n/10.95 h
+....\OT1/cmtt/m/n/10.95 e
+....\OT1/cmtt/m/n/10.95 r
+....\OT1/cmtt/m/n/10.95 e
+....\OT1/cmtt/m/n/10.95 !
+....\OT1/cmtt/m/n/10.95 !
+....\OT1/cmtt/m/n/10.95 !
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 0
+...\glue(\parskip) 0.0
+...\glue(\baselineskip) 13.6
+...\hbox(0.0+0.0)x418.25555, glue set 401.00949fil
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000
+....\glue 5.74869
+....\penalty 10000
+....\glue 5.74869
+....\penalty 10000
+....\glue 5.74869
+....\penalty 10000
+....\hbox(0.0+0.0)x0.0
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\penalty 0
+...\penalty -51
+...\glue 12.0 plus 4.0 minus 6.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 47.60002
+..\hbox(0.0+0.0)x418.25555
+
+
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-BoldSlanted-tlf-il2': SlantFon
+t/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-BoldSlanted-tlf-ot1': SlantFon
+t/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-BoldSlanted-tlf-t1--base': Sla
+ntFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-BoldSlanted-tlf-t2a--base': Sl
+antFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-BoldSlanted-tlf-t2b--base': Sl
+antFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-BoldSlanted-tlf-t2c--base': Sl
+antFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-BoldSlanted-tlf-ts1--base': Sl
+antFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-BoldSlanted-tlf-x2--base': Sla
+ntFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-Slanted-tlf-il2': SlantFont/Ex
+tendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-Slanted-tlf-ot1': SlantFont/Ex
+tendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-Slanted-tlf-t1--base': SlantFo
+nt/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-Slanted-tlf-t2a--base': SlantF
+ont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-Slanted-tlf-t2b--base': SlantF
+ont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-Slanted-tlf-t2c--base': SlantF
+ont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-Slanted-tlf-ts1--base': SlantF
+ont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTMono-Slanted-tlf-x2--base': SlantFo
+nt/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionBoldSlanted-tlf-il2': S
+lantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionBoldSlanted-tlf-ot1': S
+lantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionBoldSlanted-tlf-t1--bas
+e': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionBoldSlanted-tlf-t2a--ba
+se': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionBoldSlanted-tlf-t2b--ba
+se': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionBoldSlanted-tlf-t2c--ba
+se': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionBoldSlanted-tlf-ts1--ba
+se': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionBoldSlanted-tlf-x2--bas
+e': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionSlanted-tlf-il2': Slant
+Font/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionSlanted-tlf-ot1': Slant
+Font/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionSlanted-tlf-t1--base': 
+SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionSlanted-tlf-t2a--base':
+ SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionSlanted-tlf-t2b--base':
+ SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionSlanted-tlf-t2c--base':
+ SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionSlanted-tlf-ts1--base':
+ SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-CaptionSlanted-tlf-x2--base': 
+SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowBoldSlanted-tlf-il2': Sl
+antFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowBoldSlanted-tlf-ot1': Sl
+antFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowBoldSlanted-tlf-t1--base
+': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowBoldSlanted-tlf-t2a--bas
+e': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowBoldSlanted-tlf-t2b--bas
+e': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowBoldSlanted-tlf-t2c--bas
+e': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowBoldSlanted-tlf-ts1--bas
+e': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowBoldSlanted-tlf-x2--base
+': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowSlanted-tlf-il2': SlantF
+ont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowSlanted-tlf-ot1': SlantF
+ont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowSlanted-tlf-t1--base': S
+lantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowSlanted-tlf-t2a--base': 
+SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowSlanted-tlf-t2b--base': 
+SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowSlanted-tlf-t2c--base': 
+SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowSlanted-tlf-ts1--base': 
+SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSans-NarrowSlanted-tlf-x2--base': S
+lantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldSlanted-tlf-il2': SlantFo
+nt/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldSlanted-tlf-ot1': SlantFo
+nt/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldSlanted-tlf-t1--base': Sl
+antFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldSlanted-tlf-t2a--base': S
+lantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldSlanted-tlf-t2b--base': S
+lantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldSlanted-tlf-t2c--base': S
+lantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldSlanted-tlf-ts1--base': S
+lantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldSlanted-tlf-x2--base': Sl
+antFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldUprightItalic-tlf-il2': S
+lantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldUprightItalic-tlf-ot1': S
+lantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldUprightItalic-tlf-t1--bas
+e': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldUprightItalic-tlf-t2a--ba
+se': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldUprightItalic-tlf-t2b--ba
+se': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldUprightItalic-tlf-t2c--ba
+se': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldUprightItalic-tlf-ts1--ba
+se': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-BoldUprightItalic-tlf-x2--bas
+e': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionSlanted-tlf-il2': Slan
+tFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionSlanted-tlf-ot1': Slan
+tFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionSlanted-tlf-t1--base':
+ SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionSlanted-tlf-t2a--base'
+: SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionSlanted-tlf-t2b--base'
+: SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionSlanted-tlf-t2c--base'
+: SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionSlanted-tlf-ts1--base'
+: SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionSlanted-tlf-x2--base':
+ SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionUprightItalic-tlf-il2'
+: SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionUprightItalic-tlf-ot1'
+: SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionUprightItalic-tlf-t1--
+base': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionUprightItalic-tlf-t2a-
+-base': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionUprightItalic-tlf-t2b-
+-base': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionUprightItalic-tlf-t2c-
+-base': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionUprightItalic-tlf-ts1-
+-base': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-CaptionUprightItalic-tlf-x2--
+base': SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-Slanted-tlf-il2': SlantFont/E
+xtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-Slanted-tlf-ot1': SlantFont/E
+xtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-Slanted-tlf-t1--base': SlantF
+ont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-Slanted-tlf-t2a--base': Slant
+Font/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-Slanted-tlf-t2b--base': Slant
+Font/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-Slanted-tlf-t2c--base': Slant
+Font/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-Slanted-tlf-ts1--base': Slant
+Font/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-Slanted-tlf-x2--base': SlantF
+ont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-UprightItalic-tlf-il2': Slant
+Font/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-UprightItalic-tlf-ot1': Slant
+Font/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-UprightItalic-tlf-t1--base': 
+SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-UprightItalic-tlf-t2a--base':
+ SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-UprightItalic-tlf-t2b--base':
+ SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-UprightItalic-tlf-t2c--base':
+ SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-UprightItalic-tlf-ts1--base':
+ SlantFont/ExtendFont can be used only with embedded Type1 fonts
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2012/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map): invalid entry for `PTSerif-UprightItalic-tlf-x2--base': 
+SlantFont/ExtendFont can be used only with embedded Type1 fonts
+} (./texput.aux) ) 
+Here is how much of TeX's memory you used:
+ 1207 strings out of 493481
+ 18780 string characters out of 3140986
+ 93298 words of memory out of 3000000
+ 4579 multiletter control sequences out of 15000+200000
+ 4108 words of font info for 16 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 35i,4n,35p,261b,130s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmtt10.pfb>
+Output written on texput.pdf (1 page, 22398 bytes).
+PDF statistics:
+ 16 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
