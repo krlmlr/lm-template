@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.5.14)  30 OCT 2013 02:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.5.14)  30 OCT 2013 02:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -125,7 +125,7 @@ Completed box being shipped out [1]
 ...\hbox(0.0+0.0)x418.25555
 ..\glue 20.40001
 ..\glue(\lineskip) 0.0
-..\vbox(595.80026+0.0)x418.25555, glue set 479.14905fil
+..\vbox(595.80026+0.0)x418.25555, glue set 492.7476fil
 ...\write-{}
 ...\glue(\topskip) 3.39584
 ...\hbox(7.60416+0.0)x418.25555, glue set 346.7459fil
@@ -151,7 +151,7 @@ Completed box being shipped out [1]
 ...\glue 0.0 plus 1.0
 ...\glue(\parskip) 0.0
 ...\glue(\baselineskip) 6.90834
-...\hbox(6.69167+2.43333)x418.25555, glue set 309.03049fil
+...\hbox(6.69167+2.43333)x418.25555, glue set 314.77917fil
 ....\hbox(0.0+0.0)x0.0
 .....\glue 0.0
 .....\glue 0.0
@@ -176,8 +176,6 @@ Completed box being shipped out [1]
 ....\OT1/cmtt/m/n/10.95 a
 ....\OT1/cmtt/m/n/10.95 c
 ....\OT1/cmtt/m/n/10.95 e
-....\penalty 10000
-....\glue 5.74869
 ....\penalty 10000
 ....\glue 5.74869
 ....\OT1/cmtt/m/n/10.95 a
@@ -208,15 +206,6 @@ Completed box being shipped out [1]
 ....\OT1/cmtt/m/n/10.95 a
 ....\OT1/cmtt/m/n/10.95 n
 ....\OT1/cmtt/m/n/10.95 t
-....\hbox(0.0+0.0)x0.0
-....\penalty 10000
-....\glue(\parfillskip) 0.0 plus 1.0fil
-....\glue(\rightskip) 0.0
-...\penalty 0
-...\glue(\parskip) 0.0
-...\glue(\baselineskip) 13.6
-...\hbox(0.0+0.0)x418.25555, glue set 418.25555fil
-....\hbox(0.0+0.0)x0.0
 ....\hbox(0.0+0.0)x0.0
 ....\penalty 10000
 ....\glue(\parfillskip) 0.0 plus 1.0fil
@@ -764,7 +753,7 @@ SlantFont/ExtendFont can be used only with embedded Type1 fonts
 Here is how much of TeX's memory you used:
  1207 strings out of 493481
  18780 string characters out of 3140986
- 93298 words of memory out of 3000000
+ 92298 words of memory out of 3000000
  4579 multiletter control sequences out of 15000+200000
  4108 words of font info for 16 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -772,7 +761,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmtt10.pfb>
-Output written on texput.pdf (1 page, 22398 bytes).
+Output written on texput.pdf (1 page, 22399 bytes).
 PDF statistics:
  16 PDF objects out of 1000 (max. 8388607)
  10 compressed objects within 1 object stream
