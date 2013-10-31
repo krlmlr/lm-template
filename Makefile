@@ -1,10 +1,12 @@
 SHELL=/bin/bash
 
-all: texput.pdf texput.png
+all: texput.pdf texput.png texput.clg
 
 clean:
 	latexmk -C
 	git clean -f -X
+
+%.log: %pdf
 
 %.pdf: %.tex
 	latexmk -pdf $<
@@ -21,3 +23,6 @@ clean:
 %.odt: %.tex
 	latexmk $<
 	mk4ht oolatex $< "xhtml,ooffice,bib-"
+
+%.clg: %.log
+	egrep '^\.' $< > $@
