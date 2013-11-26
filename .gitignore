@@ -13,7 +13,9 @@
 *.idv
 *.jpg
 *.lg
+*.lof
 *.log
+*.lot
 *.notes
 *.odt
 *.ong
