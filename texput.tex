@@ -1,6 +1,25 @@
 \documentclass{scrartcl}
 \pagestyle{empty}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{cleveref}
+
+\captionsetup*[figure]{position=above}%
+\captionsetup*[subfigure]{position=above}%
 
 \begin{document}
-  .
+  \begin{figure}[h]%
+    \caption{Main caption\label{fig:1}}%
+    \subcaptionbox{Subcaption\label{sfig:a}}{Figure contents}%
+  \end{figure}
+
+  \cref{fig:1}
+
+  \cref{sfig:a}
+
+  \begin{figure}[h]%
+    \caption{Other main caption\label{fig:2}}%
+  \end{figure}
+
+  \cref{fig:2}
 \end{document}
