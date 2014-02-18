@@ -21,3 +21,7 @@ clean:
 %.odt: %.tex
 	latexmk $<
 	mk4ht oolatex $< "xhtml,ooffice,bib-"
+
+%.html: %.tex
+	latexmk $<
+	mk4ht htlatex $< "xhtml,bib-"
