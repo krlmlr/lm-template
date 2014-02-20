@@ -24,4 +24,4 @@ clean:
 
 %.html: %.tex
 	latexmk $<
-	mk4ht htlatex $< "xhtml,bib-"
+	mk4ht htlatex $< "xhtml,bib-,charset=utf-8" " -cunihtf -utf8"
