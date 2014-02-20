@@ -1,1 +1,1 @@
-\renewcommand\textminus{\HCode{&minus;}}
+\renewcommand\textminus{\HCode{&\#x2212;}}
