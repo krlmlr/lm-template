@@ -1,16 +1,8 @@
 \documentclass[twocolumn]{article}
-\pagestyle{empty}
 
 \usepackage{fixltx2e}
 \usepackage[active,floats]{preview}
-\usepackage{xparse}
-
-\NewDocumentCommand\createfigure{s O{tbp} +m}{%
-  \IfBooleanTF{#1}{\begin{figure*}[#2]}{\begin{figure}[#2]}%
-    #3
-  \IfBooleanTF{#1}{\end{figure*}}{\end{figure}}%
-}
 
 \begin{document}
-  \createfigure*[p]{Test}
+  \begin{figure*}Test\end{figure*}
 \end{document}
