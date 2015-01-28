@@ -1,6 +1,30 @@
 \documentclass{scrartcl}
+\usepackage{lipsum}
 \pagestyle{empty}
 
 \begin{document}
-  .
+\section{Normal size}
+
+test test test test test test test test test test test test test test test test test test test test test test test test test test test test 
+
+\section{Size changed in block}
+
+  {\fontsize{15}{20}\selectfont
+test test test test test test test test test test test test test test test test test test test test test test test test test test test test 
+  }
+
+\section{Size changed outside of block}
+
+  \fontsize{15}{20}\selectfont
+test test test test test test test test test test test test test test test test test test test test test test test test test test test test 
+
+\section{Size restored}
+
+\normalsize
+test test test test test test test test test test test test test test test test test test test test test test test test test test test test 
+
+\section{Size changed in block for Lorem Ipsum}
+
+  {\fontsize{15}{20}\selectfont\lipsum[1]}
+  
 \end{document}
