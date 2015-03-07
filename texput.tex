@@ -2,6 +2,9 @@
 \pagestyle{empty}
 \usepackage{import}
 
+\let\oldsubimport\subimport
+\def\subimport#1#2{\oldsubimport{#2}{#1}}
+
 \begin{document}
-  \subimport{sub/}{file}
+  \subimport{file}{sub}
 \end{document}
