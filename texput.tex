@@ -1,6 +1,13 @@
 \documentclass{scrartcl}
 \pagestyle{empty}
+\usepackage{xparse}
+\usepackage[authoryear,round]{natbib}
+
+\let\oldcitep=\citep
+\RenewDocumentCommand{\citep}{O{} O{} m}{\oldcitep{#3}}
+
+\NewDocumentCommand{\citex}{O{} O{} m}{\oldcitep{#3}}
 
 \begin{document}
-  .
+  \citep{SomeRef}
 \end{document}
