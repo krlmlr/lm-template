@@ -1,6 +1,29 @@
-\documentclass{scrartcl}
+\documentclass[a5paper,twocolumn]{scrartcl}
 \pagestyle{empty}
+\usepackage{mwe}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{lipsum}
+
+\bibliographystyle{chicago}
 
 \begin{document}
-  .
+  \begin{figure*}[t]
+    \includegraphics[width=\textwidth]{example-image-golden}
+  \end{figure*}
+  \lipsum[1]
+  \lipsum[1]
+  \lipsum[2]
+  Fill some space.\par
+  Fill some space.\par
+  Fill some space.\par
+  Fill some space.\par
+  Fill some space.\par
+  Fill some space.\par
+  Fill some space.\par
+  Fill some space.\par
+  Fill some space.\par
+  Now this is interesting: We make this just long enough to break the link
+  \citep{strunk-and-white}
+  \bibliography{btxdoc}
 \end{document}
