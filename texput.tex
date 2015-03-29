@@ -4,9 +4,9 @@
 \usepackage{pgfcore}
 \usepackage[active,tightpage]{preview}
 
-\let\myshipout=\shipout
+\let\myshipout\shipout
 \begin{document}
-  \let\shipout=\myshipout
+  \let\shipout\myshipout
 
   Text
   \begin{preview}HELLO\end{preview}
