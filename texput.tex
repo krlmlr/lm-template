@@ -1,6 +1,13 @@
 \documentclass{scrartcl}
 \pagestyle{empty}
 
+\usepackage{pgfcore}
+\usepackage[active,tightpage]{preview}
+
+\let\myshipout=\shipout
 \begin{document}
-  .
+  \let\shipout=\myshipout
+
+  Text
+  \begin{preview}HELLO\end{preview}
 \end{document}
