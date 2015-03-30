@@ -2,8 +2,9 @@
 \pagestyle{empty}
 \usepackage{xparse}
 \usepackage[authoryear,round]{natbib}
+\usepackage{letltxmacro}
 
-\let\oldcitep=\citep
+\LetLtxMacro\oldcitep\citep
 \RenewDocumentCommand{\citep}{O{} O{} m}{\oldcitep{#3}}
 
 \NewDocumentCommand{\citex}{O{} O{} m}{\oldcitep{#3}}
