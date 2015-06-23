@@ -1,7 +1,21 @@
 \documentclass{scrartcl}
 \pagestyle{empty}
-\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{dcolumn}
 
 \begin{document}
-  .
+\begin{tabular}{llD{.}{.}{0}D{.}{.}{0}D{.}{.}{0}D{.}{.}{0}D{.}{.}{0}D{.}{.}{0}D{.}{.}{0}D{.}{.}{0}}
+\toprule
+\multicolumn{1}{l}{Total persons} && \multicolumn{1}{c}{1}&\multicolumn{1}{c}{2}&\multicolumn{1}{c}{3}&\multicolumn{1}{c}{4}&\multicolumn{1}{c}{5}&\multicolumn{1}{c}{6}&\multicolumn{1}{c}{7}&\multicolumn{1}{c}{8}\\
+\midrule
+Foreigners && \\
+\cmidrule{1-1}
+0          && 13 & 22 & 6  & 31 & -2 & 27 & 22 & 23\\
+1          && 29 & 18 & 32 & 26 & 21 & 11 & 18 & 16\\
+2          && 25 & 23 & 25 & 23 & 34 & 34 & 31 & 21\\
+3          && 4  & 26 & 11 & 8  & 25 & 6  & 24 & 10\\
+4          && 36 & -2 & 25 & 30 & 21 & 13 & 40 & 24\\
+5          && 23 & 24 & 14 & 25 & 19 & 7  & 33 & 23\\
+\bottomrule
+\end{tabular}
 \end{document}
