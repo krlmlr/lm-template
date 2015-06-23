@@ -1,6 +1,21 @@
 \documentclass{scrartcl}
 \pagestyle{empty}
 
+\newbox\mybox
+
 \begin{document}
-  .
+  \setbox\mybox=\hbox{
+    \begin{minipage}[t]{10em}
+      \setlength{\parskip}{0ex plus5ex}
+      First paragraph
+
+      Second paragraph
+
+      Third paragraph
+    \end{minipage}
+  }%
+  %
+  \usebox{\mybox}
+  % How can I render the box with a specified height and distribute the paragraphs
+  % according to the parskip?
 \end{document}
