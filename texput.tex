@@ -1,6 +1,20 @@
 \documentclass{scrartcl}
 \pagestyle{empty}
 
+\usepackage[capitalize]{cleveref}
+\newcommand{\ultracref}[1]{\cref{#1}}
+% How to define this so that it shows "in the previous/next section"?
+
 \begin{document}
-  .
+  \section{First}
+  \label{sec:first}
+
+  \section{Second}
+  \label{sec:second}
+  We have shown xyz in \ultracref{sec:first},
+  abc will be handled in \ultracref{sec:third}.
+  This section focuses on ghi.
+
+  \section{Third}
+  \label{sec:third}
 \end{document}
