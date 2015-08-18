@@ -2,8 +2,16 @@
 \pagestyle{empty}
 
 \newbox\mybox
+\newbox\myboxx
 
 \begin{document}
+  \setbox\myboxx=\vbox{
+    First paragraph
+
+    Second paragraph
+
+    Third paragraph
+  }
   \setbox\mybox=\hbox{
     \begin{minipage}[t]{10em}
       \setlength{\parskip}{0ex plus5ex}
@@ -15,7 +23,7 @@
     \end{minipage}
   }%
   %
-  \usebox{\mybox}
+  \usebox{\myboxx}
   % How can I render the box with a specified height and distribute the paragraphs
   % according to the parskip?
 \end{document}
