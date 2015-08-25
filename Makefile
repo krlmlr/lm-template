@@ -13,7 +13,7 @@ clean:
 	pdfcrop $<
 
 %.png: %-crop.pdf
-	convert -density 150 $< $@
+	convert -density 1200 $< $@
 
 %.tex: %.Rnw
 	R --no-save <<<"library(knitr); knit('$<', output='$@')" || true
