@@ -1,6 +1,10 @@
 \documentclass{scrartcl}
 \pagestyle{empty}
+\usepackage{graphicx}
 
 \begin{document}
-  .
+  1 \includegraphics[width=1cm,height=1cm]{dummy}
+  2 \scalebox{1}[-1]{\includegraphics[width=1cm,height=1cm]{dummy}}
+  3 \scalebox{-1}[-1]{\includegraphics[width=1cm,height=1cm]{dummy}}
+  4 \scalebox{-1}[1]{\includegraphics[width=1cm,height=1cm]{dummy}}
 \end{document}
